@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <base href="/" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <script type="text/javascript" src="js/jquery-3.7.1.js"></script>
+        <title>MyApp</title>
+        <link rel="stylesheet" href="{{ contextPath }}/css/styles.css" />
+    </head>
+    <body>
+        <nav class="navigate">
+            <a onclick="getContent('/home')"; href="#">Home</a>
+            <a onclick="getContent('/about')"; href="#">About</a>
+            <a onclick="getContent('/contact')"; href="#">Contact</a>
+        </nav>
+        <p>My first SPA </p>
+        <div class="field" id="app"><h1>Home</h1><p>Home page</p></div>
+        <script type="text/javascript" src="{{ contextPath }}/js/app.js"></script>
+    </body>
+</html>
